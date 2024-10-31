@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Chewy', Arial, sans-serif;
+    background-image: url('Fundo.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  h1 {
+    font-family: 'Abril Fatface', serif;
+    font-size: 3.0em;
+    margin-bottom: 0.5em;
+  }
+  
+  h2 {
+    font-family: 'Allura', cursive;
+    font-size: 2.5em;
+    font-weight: normal;
+  }
+  
+  main {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .tema1 {
+    background-color: #FFCFB6;
+    border: 2px solid #D95A17;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+  }
+  
+  .tema1:hover {
+    transform: scale(1.05);
+    background-color: #FFD9C4;
+  }
+  
+  .tema1 h3 {
+    font-family: 'Chewy', Arial, sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .tema1 p {
+    font-family: 'Chewy', Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .tema {
+    background-color: #EEFBEA;
+    border: 2px solid #99BB6E;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+  }
+  
+  .tema:hover {
+    transform: scale(1.05);
+    background-color: #E6F7DA;
+  }
+  
+  .tema h3 {
+    font-family: 'Chewy', Arial, sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .tema p {
+    font-family: 'Chewy', Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2.2em;
+    }
+  
+    h2 {
+      font-size: 1.4em;
+    }
+  
+    .tema, .tema1 {
+      padding: 15px;
+    }
+  }
+  
