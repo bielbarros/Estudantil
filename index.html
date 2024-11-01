@@ -6,6 +6,9 @@
   <title>Apresentação do Trabalho</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Allura&family=Abril+Fatface&family=Chewy&display=swap">
   <link rel="stylesheet" href="styles.css">
+
+    
+
 </head>
 <body>
   <header>
@@ -14,24 +17,40 @@
   </header>
 
   <main>
-    <section class="tema">
-      <h3>Tema 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel orci enim. Curabitur vehicula tempor odio, sed consequat purus laoreet sit amet.</p>
-    </section>
+    <!-- Menu de opções principais -->
     <section class="tema1">
-      <h3>Tema 2</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel orci enim. Curabitur vehicula tempor odio, sed consequat purus laoreet sit amet.</p>
     </section>
-    <section class="tema">
-      <h3>Tema 3</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel orci enim. Curabitur vehicula tempor odio, sed consequat purus laoreet sit amet.</p>
+    <section class="tema" onclick="showSection('vetSection')">
+      <h3>Médicos Veterinários Nutrólogos</h3>
     </section>
-    <section class="tema1">
-      <h3>Tema 4</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel orci enim. Curabitur vehicula tempor odio, sed consequat purus laoreet sit amet.</p>
+    <section class="tema1" onclick="showSection('articlesSection')">
+      <h3>Artigos</h3>
+    </section>
+    <section class="tema" onclick="showSection('experienceSection')">
+      <h3>Nossa experiência</h3>
+    </section>
+
+    <!-- Seções de conteúdo ocultas por padrão -->
+    <section id="vetSection" class="content-section">
+      <h3>Médicos Veterinários Nutrólogos</h3>
+      <p>Conteúdo sobre médicos veterinários nutrólogos e seus trabalhos.</p>
+      <button onclick="showMain()">Voltar</button>
+    </section>
+
+    <section id="articlesSection" class="content-section">
+      <h3>Artigos sobre Alimentação Natural</h3>
+      <p>Aqui estão listados todos os artigos sobre alimentação natural para pets.</p>
+      <button onclick="showMain()">Voltar</button>
+    </section>
+
+    <section id="experienceSection" class="content-section">
+      <h3>Nossa Experiência</h3>
+      <p>Detalhes sobre nossa experiência com alimentação natural para pets.</p>
+      <button onclick="showMain()">Voltar</button>
     </section>
   </main>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
