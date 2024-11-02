@@ -211,3 +211,43 @@ a:hover i.bx {
 
 
 }
+
+
+
+.articles-profiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center; /* Centraliza os perfis na div principal */
+}
+
+
+.article-profile {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 16px;
+  flex-basis: 200px; /* Define uma largura inicial ajustável */
+  text-align: center;
+  align-items: center;
+  transition: background-color 0.5s ease, transform 0.5s ease;
+  border: 3px solid #99BB6E;
+  border-radius: 10px;
+}
+
+
+.article-info h4 {
+  font-size: 1.2em;
+  margin: 8px 0;
+}
+
+.article-info p {
+  font-size: 0.9em;
+  color: #555;
+  margin: 20px 10px;
+  padding: 20px 10px;
+}
+.article-profile:hover {
+  transform: scale(1.08);
+}
