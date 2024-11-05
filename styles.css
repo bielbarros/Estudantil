@@ -206,7 +206,7 @@ a i.bx {
 }
 
 a:hover i.bx {
-  color: #ff5900;
+  color: #99BB6E;
   cursor: pointer;
 
 
@@ -324,4 +324,48 @@ a:hover i.bx {
   height: auto;
   border-radius: 50%; /* Torna as imagens redondas */
   border: 4px solid #D95A17; /* Borda para as imagens */
+}
+/* Container da seção para definir largura máxima */
+#snoopyDetails {
+  max-width: 100%; /* Limita a largura para 100% do contêiner pai */
+  margin: 0 auto; /* Centraliza a section */
+  padding: 20px; /* Adiciona espaçamento interno */
+  box-sizing: border-box; /* Garante que padding e border sejam inclusos no cálculo da largura */
+}
+
+/* Estilo para o container das imagens */
+.experience-images {
+  display: flex;
+  flex-wrap: wrap;  /* Permite que as imagens se ajustem em várias linhas */
+  justify-content: center; /* Centraliza as imagens */
+  gap: 15px; /* Espaçamento entre as imagens */
+  overflow: hidden; /* Impede que as imagens saiam do container */
+}
+
+/* Estilo para as imagens */
+.experience-images img {
+  max-width: 230px; /* Faz a imagem se ajustar à largura do container */
+  height: auto; /* Mantém a proporção original da imagem */
+  object-fit: cover; /* Ajusta a imagem sem distorcer */
+  max-height: 300px; /* Limita a altura máxima das imagens para 300px, se necessário */
+  margin-bottom: 10px; /* Adiciona espaçamento entre as imagens */
+  box-sizing: border-box; /* Garante que o padding e as bordas sejam incluídos nas dimensões */
+}
+
+/* Estilo para o <figure> que contém a imagem */
+.princesa-image {
+  width: 100%;  /* Ajusta o tamanho do container */
+  max-width: 400px; /* Limita o tamanho da imagem a 400px de largura */
+  margin: 0 auto; /* Centraliza o figure */
+  padding: 10px; /* Adiciona um padding ao redor da imagem */
+  border: 2px solid #ddd; /* Adiciona uma borda leve */
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estilo para a imagem específica */
+.princesa-image img {
+  width: 100%;  /* Faz a imagem ocupar toda a largura do container */
+  height: auto; /* Mantém a proporção da imagem */
+  object-fit: cover; /* Faz com que a imagem se ajuste ao container sem distorcer */
+  border-radius: 8px; /* Bordas arredondadas na imagem */
 }

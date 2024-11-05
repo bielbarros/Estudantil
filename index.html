@@ -31,6 +31,8 @@
       <h3>Nossa experiência</h3>
     </section>
 
+    
+
     <!-- Seções de conteúdo ocultas por padrão -->
     <section id="vetSection" class="content-section">
       <h3>Médicos Veterinários Nutrólogos</h3>
@@ -215,77 +217,217 @@
       <button onclick="showMain()">Voltar</button>
     </section>
 
+    
+
     <section id="experienceSection" class="content-section">
       <h3>Nossa Experiência</h3>
-      <p>Detalhes sobre nossa experiência com alimentação natural para pets.</p>
-
       <div class="experience-profiles">
         <!-- Exemplo de perfil 1 -->
         <div class="experience-profile">
           <h3>Spike</h3>
-          <img src="img/Spike.jpeg" alt="Foto do Veterinário 1">
+          <img src="img/Spike.jpeg" alt="Foto de Spike">
           <div class="experience-info">
             <h4>By Nicole</h4>
-            <p><a href="" target="_blank"><i class='bx bxs-dog'></i></a></p>
-          </div>
-        </div>
-
-
-
-        <div class="experience-profile">
-          <h3>Princesa</h3>
-          <img src="img/Princesa.jpeg" alt="Foto do Veterinário 1">
-          <div class="experience-info">
-            <h4>By Loanne</h4>
-            <p><a href="" target="_blank"><i class='bx bxs-dog'></i></a></p>
-          </div>
-        </div>
-
-
-
-        <div class="experience-profile">
-          <h3>Snoopy</h3>
-          <img src="img/Snoopy.jpeg" alt="Foto do Veterinário 1">
-          <div class="experience-info">
-            <h4>By Pâmella</h4>
-            <p><a href="" target="_blank"><i class='bx bxs-dog'></i></a></p>
-          </div>
-        </div>
-
-
-        <div class="experience-profile">
-          <h3>Sara</h3>
-          <img src="img/Sara.jpeg" alt="Foto do Veterinário 1">
-          <div class="experience-info">
-            <h4>By Pâmella</h4>
-            <p><a href="" target="_blank"><i class='bx bxs-dog'></i></a></p>
-          </div>
-        </div>
-
-
-        <div class="experience-profile">
-          <h3>Mateus & Miguel</h3>
-          <div class="experience-images"> <!-- Container para as imagens -->
-            <img src="img/Mateus.jpeg" alt="Foto do Veterinário 1">
-            <img src="img/Miguel.jpeg" alt="Foto do Veterinário 2">
-          </div>
-          <div class="experience-info">
-            <h4>By Pâmella</h4>
-            <p><a href="" target="_blank"><i class='bx bxs-dog'></i></a></p>
+            <p><a href="javascript:void(0)" onclick="showSection('spikeDetails')"><i class='bx bxs-dog'></i></a></p>
           </div>
         </div>
         
-
-      
-
-
+        
+        
+        <div class="experience-profile">
+          <h3>Princesa</h3>
+          <img src="img/Princesa.jpeg" alt="Foto de Princesa">
+          <div class="experience-info">
+            <h4>By Loanne</h4>
+            <p><a href="javascript:void(0)" onclick="showSection('princesaDetails')"><i class='bx bxs-dog'></i></a></p>
+          </div>
+        </div>
+        
+        
+        
+        
+        <div class="experience-profile">
+          <h3>Snoopy</h3>
+          <img src="img/Snoopy.jpeg" alt="Foto de Snoopy">
+          <div class="experience-info">
+            <h4>By Pâmella</h4>
+            <p><a href="javascript:void(0)" onclick="showSection('snoopyDetails')"><i class='bx bxs-dog'></i></a></p>
+          </div>
+        </div>
+        
+        
+        
+        <div class="experience-profile">
+          <h3>Sara</h3>
+          <img src="img/Sara.jpeg" alt="Foto de Sara">
+          <div class="experience-info">
+            <h4>By Pâmella</h4>
+            <p><a href="javascript:void(0)" onclick="showSection('saraDetails')"><i class='bx bxs-dog'></i></a></p> <!-- Link que direciona para a seção Sara -->
+          </div>
+        </div>
+        
+        
+        
+        
+        <div class="experience-profile">
+          <h3>Mateus & Miguel</h3>
+          <div class="experience-images">
+            <img src="img/gato.jpeg" alt="Foto do Gato">
+            
+          </div>
+            <div class="experience-info">
+              <h4>By Pâmella</h4>
+              <p><a href="javascript:void(0)" onclick="showSection('mateusMiguelDetails')"><i class='bx bxs-dog'></i></a></p> <!-- Link que direciona para a seção Mateus & Miguel -->
+            </div>
+        </div>
 
 
       </div>
-
-
+      
       <button onclick="showMain()">Voltar</button>
     </section>
+
+
+    <!-- Seções de detalhes dos animais -->
+    <section id="spikeDetails" class="content-section" style="display:none;">
+      <h3>Spike</h3>
+      <p>O Spike é um beagle de 7 anos muito brincalhão e cheio de energia, desde o desmame a sua alimentação se baseava em ração e petiscos sem controle ou limite, mas ainda sim nunca havia apresentado nenhum problema de pele ou alergias, porém desde novinho soltava muito pelo, as vezes só de andar já caia aquele tanto de pelo, algo que eu já estranhava, mas por falta de conhecimento não busquei investigar. </p>
+      <div class="experience-images">
+        <figure >
+          <img src="img/Spike/pelo (1).jpeg" alt="Foto do Spike">
+        </figure>
+        <figure >
+          <img src="img/Spike/pelo (2).jpeg" alt="Foto do Spike">
+        </figure>
+
+        <p>Outro ponto importante é o fato da raça dele ter predisposição a obesidade, não ironicamente o spike se apresentava mais gordinho do que o normal, com várias dobrinhas no pescoço e uma barriguinha saliente.</p>
+        <figure >
+          <img src="img/Spike/spike-gordo.jpeg" alt="Foto do Spike">
+        </figure>
+
+        <p>Porém não foram esses motivos que me levaram a adotar a Alimentação Natural, o fato aconteceu quando eu, já dentro da faculdade, comecei a estudar mais sobre umas opniões que havia desenvolvido para o meu estilo de vida, como evitar usar exageradamente medicamentos, esses pontos me fizeram questionar se eu tratava o meu pet dessa mesma forma, então pelo instagram conheci vários perfis de Médicos veterinários que debatiam sobre pontos polêmicos mas necessários como a necessidade da castração de animais saudáveis, a obrigatoriedade de vacinas como de gripe e giárdia e o maioral: Ração. A partir disso eu não parei mais de pesquisar e estudar sobre a Medicina Integrativa, até que encontrei uma profissional que eu me identifiquei para que fosse a nutróloga do Spike. A transição dele da ração para AN foi bem tranquila, ele super se adaptou e passou a gostar de se aliemntar, coisa que antes não acontecia com a ração, suas fezes diminuíram de tamanho com odor quase imperceptível, a queda de pelo diminuiu drasticamente e como podemos ver nas imagens com a nova dieta ele conseguiu voltar para o peso ideal, perdendo suas gordurinhas localizadas, prevenindo assim a obesidade.</p>
+      </div>
+      <button onclick="showMain()">Voltar</button>
+    </section>
+    
+    
+    <section id="princesaDetails" class="content-section" style="display:none;">
+      <h3>Experiência com Princesa</h3>
+      <p>Detalhes sobre a experiência com Princesa...</p>
+      <div class="experience-images">
+        <!-- Cada imagem dentro de uma div -->
+         <p>Essa é a Princesa, minha cachorrinha de 1 ano e 6 meses.
+          Desde que ela chegou para mim, tinha muitos problemas de pele e foi diagnosticada com dermatite atópica.
+          Princesa tinha muitos problemas gastrointestinais também, o que a levava a quadros sérios de vômitos e diarréias a ponto de ficar internada entre a vida e a morte.
+          Um processo longo de trocas de rações, antibióticos, corticoides e infinitos tratamentos que não resolviam o que ela tinha, na verdade, só notávamos piora e prostração a cada dia da vida da Princesa.</p>
+        <figure class="princesa-image">
+          <img src="img/princesa/princesa-dodoi.jpeg" alt="Foto da Princesa">
+        </figure>
+
+        <p>Desse meio tempo, conheci o mundo da Alimentação Natural através de uma indicação de uma amiga, o que através de muita pesquisa para entender melhor sobre o assunto, me levou a dar uma oportunidade de trocar a ração da Princesa para a AN através de um acompanhamento com uma médica veterinária Nutrologa. 
+          A partir do momento em que fizemos essa troca, de forma gradual, notamos uma diferença enorme na saúde da Princesa. Ela parou de ter vômitos e diarréias constantes, aos poucos a pele foi ficando saudável e os pelos voltando a crescer e ela nunca mais precisou ficar internada e nem ir a consultas de emergências por problemas de saúde.</p>
+          
+        <figure class="princesa-image">
+            <img src="img/princesa/princesa-ok.jpeg" alt="Foto da Princesa">
+        </figure>
+
+        <p>Depois da AN, sem dúvidas, tenho outra cachorrinha em casa.
+          Uma cachorrinha cheia de vida, saudável e com uma pelagem linda mesmo já tendo ouvido que ela nunca iria ter por ser atópica.
+          Em troca de 3 horas a cada 20 dias para fazer a comidinha dela, ganhamos saúde, paz e longevidade de verdade.
+          Posso dizer que a Princesa é um reflexo de que uma alimentação saudável, balanceada, suplementada e compatível com a especie é a base de todos os seres vivos.
+          
+          Hoje ela não sofre com lambedura de patas excessivas, coceiras, vermelhidão na pele e até mesmo falhas no pelo.
+          Hoje não sabemos mais o que é ter uma crise gastrointestinal.
+          Alimentação Bioapropriada salva vidas!</p>
+          
+          <button onclick="showMain()">Voltar</button>
+    </section>
+    
+    
+    <section id="snoopyDetails" class="content-section" style="display:none;">
+      <h3>Snoopy</h3>
+      <p>Snoopy é um beagle de 9 aninhos que come AN cozida e que teve alergia alimentar em 2023.
+        No começo de 2023 ele começou a presentar várias falhas no pelo que logo em seguida evoluiu para machucados que não se curavam, além da pele dele que ficou muito avermelhada.</p>
+    
+      <div class="experience-images">
+        <!-- Cada imagem dentro de uma div -->
+        <figure>
+          <img src="img/Snoopy/Snoopy1 (18).jpeg" alt="Foto de Snoopy">
+        </figure>
+        <figure>
+          <img src="img/Snoopy/Snoopy1 (11).jpeg" alt="Foto de Snoopy">
+        </figure>
+      
+    
+        <p>Fizemos curativos nesses machucados, demos anti-inflamatórios prescritos pelo Médico Veterinário dele, mas nada disso resolvia. O Médico dele trocou a alimentação dele pra uma ração hipoalergênica de frango hidrolisado da PremieR, só que mesmo assim o quadro dele não melhorava, ao contrário só piorou depois disso.</p>
+    
+        <!-- Imagens continuam -->
+        <figure>
+          <img src="img/Snoopy/Snoopy1 (7).jpeg" alt="Foto de Snoopy">
+        </figure>
+        <figure>
+          <img src="img/Snoopy/Snoopy1 (8).jpeg" alt="Foto de Snoopy">
+        </figure>
+
+        <p> Então foi quase um ano com ele e as tutoras (eu e minha irmã) dele sofrendo com isso, nenhum Médico Veterinário sabia resolver o caso dele.
+          Durante esse tempo eu e minha irmã pesquisamos bastante do que poderia estar acontecendo com ele, chegamos até pensar que ele tinha desenvolvido algum tipo de dermatite. Até que nós descobrimos o mundo da Alimentação Natural e decidimos tentar introduzir esse tipo de alimentação pra ele.
+          Antes disso, a gente fez um teste alérgico com ele, para saber que alimentos ele mais tinha alergia e marcamos uma consulta com uma Médica Veterinária Nutróloga, a Patryne Ibrahim.</p>
+        <figure>
+          <img src="img/Snoopy/Snoopy1 (6).jpeg" alt="Foto de Snoopy">
+        </figure>
+
+        <p>A Médica fez uma dieta de AN cozida totalmente restrita para ele, com somente carne suína, além de vegetais e carboidratos que não causavam tantas inflamações nos animais. Ele ficou se alimentando com essa dieta por uns três meses mais ou menos, mas logo no primeiro mês ele já apresentou melhoras.</p>
+        <figure>
+          <img src="img/Snoopy/Snoopy1 (3).jpeg" alt="Foto de Snoopy">
+        </figure>
+        <figure>
+          <img src="img/Snoopy/Snoopy1 (4).jpeg" alt="Foto de Snoopy">
+        </figure>
+
+        <p>Como mostra nas fotos, os ferimentos e a pele dele melhoraram muito depois desse primeiro mês só com essa dieta restrita. Logo depois desses meses, foi introduzido outros tipos de proteínas de origem animal, pois a tendência é essa alergia “desaparecer” à medida que o corpo desinflama.
+          Hoje em dia, com quase um ano de AN cozida, ele está muito bem, ama muito o papa dele e apesar dos ferimentos e pele estarem curadas, ele ainda tem as cicatrizes no corpinho dele.</p>
+        <figure>
+          <img src="img/Snoopy/Snoopy1 (1).jpeg" alt="Foto de Snoopy">
+        </figure>
+        <figure>
+          <img src="img/Snoopy/Snoopy1 (2).jpeg" alt="Foto de Snoopy">
+        </figure>
+       
+      </div>
+    
+      <button onclick="showMain()">Voltar</button>
+    </section>
+    
+
+
+    
+    <section id="saraDetails" class="content-section" style="display:none;">
+      <h3>Sara</h3>
+      <p>  Sara é uma gatinha SRD de 5 anos que come AN cozida e que quase se tornou renal.
+        Quando ela chegou na nossa casa em 2021 bem subnutrida, e apesar disso ela não apresentava nos exames que tinha problemas renais. Foi em 2022, quando nós fizemos outros exames que ela apresentou a creatinina alta e o Médico Veterinário somente passou uma medicação injetável para ela que abaixou a creatinina.
+        Um detalhe importante é que ela não gosta de beber água e não bebia água por nada, então isso provavelmente contribuiu para piorar o quadro dela.
+        Após um ano em 2023, realizamos os exames nela novamente e foi constatado que a creatinina deu um valor alto novamente, com isso o Médico dela prescreveu a ração para gatos renais.
+        Ao realizar a consulta para mudar a alimentação do Snoopy pra AN, aproveitamos e fizemos também para Sara.
+     Então depois de quase um ano de AN cozida a creatinina dela que estava 2,2mg/dL e a ureia em 73,9 mg/dL em 2023 passou para 0,9 mg/dL de creatinina e 51,1 mg/dL de ureia em 2024.</p>
+     <div class="experience-images">
+      <!-- Cada imagem dentro de uma div -->
+      <figure>
+        <img src="img/comida (1).jpeg" alt="Foto de Comida">
+      </figure>
+      <figure>
+        <img src="img/comida (2).jpeg" alt="Foto de Comida">
+      </figure>
+      </div>
+     
+     <button onclick="showMain()">Voltar</button>
+    </section>
+    <section id="mateusMiguelDetails" class="content-section" style="display:none;">
+      <h3>Miguel e Mateus</h3>
+      <p> Miguel e Mateus são gatinhos frajolas SRD, o Miguel tem cerca de 9 anos e o Mateus tem cerca 4 anos (não sabemos a idade exata deles). Todos os dois se adaptaram super bem a AN cozida, apesar de terem suas preferências com certos tipos de alimentos.</p>
+       <img src="" alt="">
+      <button onclick="showMain()">Voltar</button>
+    </section>
+   
   </main>
 
   <script src="script.js" defer></script>
