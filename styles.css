@@ -249,3 +249,79 @@ a:hover i.bx {
 .article-profile:hover {
   transform: scale(1.08);
 }
+
+
+
+
+
+
+
+.experience-profiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center; /* Centraliza os perfis na div principal */
+}
+
+
+.experience-profile {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 16px;
+  flex-basis: 200px; /* Define uma largura inicial ajustável */
+  text-align: center;
+  align-items: center;
+  transition: background-color 0.5s ease, transform 0.5s ease;
+  border: 3px solid #99BB6E;
+  border-radius: 10px;
+  
+}
+
+
+.experience-info h4 {
+  font-size: 1.2em;
+  margin: 8px 0;
+}
+
+.experience-info p {
+  font-size: 0.9em;
+  color: #555;
+  margin: 20px 10px;
+  padding: 20px 10px;
+}
+.experience-profile:hover {
+  transform: scale(1.08);
+}
+
+.experience-profile img {
+  width: 100%;
+  height: auto;
+  border-radius: 80%; /* Torna a imagem redonda */
+  margin-bottom: 10px;
+  border: 4px solid #D95A17;
+  display: flex;
+  
+}
+
+.experience-info h3 {
+  font-size: 1.5em;
+  margin: 8px 0;
+}
+
+/* Novo container para as imagens dentro do perfil */
+.experience-images {
+  display: flex;
+  justify-content: center; /* Centraliza as imagens */
+  gap: 15px; /* Espaço entre as imagens */
+  margin-bottom: 10px; /* Espaço entre as imagens e o restante do conteúdo */
+}
+
+/* Estilo para as imagens dentro do novo container */
+.experience-images img {
+  width: 170px; /* Ajusta o tamanho das imagens */
+  height: auto;
+  border-radius: 50%; /* Torna as imagens redondas */
+  border: 4px solid #D95A17; /* Borda para as imagens */
+}
