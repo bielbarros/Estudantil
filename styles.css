@@ -369,3 +369,13 @@ a:hover i.bx {
   object-fit: cover; /* Faz com que a imagem se ajuste ao container sem distorcer */
   border-radius: 8px; /* Bordas arredondadas na imagem */
 }
+
+.spike-image img {
+  width: 400px;  /* Faz a imagem ocupar toda a largura do container */
+  border-radius: 50%; /* Bordas arredondadas na imagem */
+}
+
+.spike-image-gordo img {
+  width: 400px;  /* Faz a imagem ocupar toda a largura do container */
+  border-radius: 30%; /* Bordas arredondadas na imagem */
+}
