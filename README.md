@@ -111,4 +111,4 @@ Pull requests são bem-vindos! Para grandes mudanças, abra uma issue primeiro p
 
 **Gabriel Barros**  
 Desenvolvedor e Educador de Tecnologia  
-[LinkedIn](https://www.linkedin.com/in/gabriels-barros) • [GitHub](https://github.com/bielbarros)
+[LinkedIn](https://www.linkedin.com/in/gabriel-sbarros) • [GitHub](https://github.com/bielbarros)
